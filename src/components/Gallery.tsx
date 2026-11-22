@@ -26,7 +26,7 @@ export default function Gallery() {
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid auto-rows-[140px] grid-cols-2 gap-3 sm:auto-rows-[180px] md:grid-cols-4 lg:auto-rows-[200px] lg:gap-4">
+        <div className="mt-12 grid auto-rows-[150px] grid-cols-2 gap-3 sm:auto-rows-[180px] md:grid-cols-4 lg:auto-rows-[200px] lg:gap-4">
           {gallery.map((image, index) => (
             <Reveal
               key={image.src}

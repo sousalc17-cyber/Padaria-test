@@ -65,7 +65,7 @@ export default function Essence() {
                 {differentials.map(({ icon: Icon, title, description }) => (
                   <li key={title} className="border-t border-brown/15 pt-6">
                     <Icon size={20} strokeWidth={1.25} className="text-terracotta" aria-hidden="true" />
-                    <h3 className="mt-5 text-[13px] font-medium uppercase tracking-[0.08em] text-ink">
+                    <h3 className="mt-5 text-[13px] font-medium uppercase tracking-[0.08em] text-ink sm:min-h-[2.5rem]">
                       {title}
                     </h3>
                     <p className="mt-3 text-[13px] leading-[1.7] text-brown/70">{description}</p>

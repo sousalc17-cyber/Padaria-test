@@ -16,9 +16,9 @@ export default function Hero() {
           <div className="lg:col-span-5">
             <Reveal>
               <p className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[10px] uppercase tracking-[0.18em] text-brown/70">
-                <span className="h-px w-8 bg-brown/30" aria-hidden="true" />
+                <span className="hidden h-px w-8 bg-brown/30 sm:block" aria-hidden="true" />
                 <span>Produção artesanal</span>
-                <span className="text-brown/30" aria-hidden="true">
+                <span className="hidden text-brown/30 sm:inline" aria-hidden="true">
                   •
                 </span>
                 <span>Ingredientes selecionados</span>
@@ -37,8 +37,14 @@ export default function Hero() {
               </p>
 
               <div className="mt-10 flex flex-wrap items-center gap-3">
-                <Button href="#produtos">Conheça nossos produtos</Button>
-                <Button href={whatsappLink()} variant="outline">
+                <Button href="#produtos" className="w-full justify-center sm:w-auto">
+                  Conheça nossos produtos
+                </Button>
+                <Button
+                  href={whatsappLink()}
+                  variant="outline"
+                  className="w-full justify-center sm:w-auto"
+                >
                   Faça seu pedido
                 </Button>
               </div>

@@ -16,7 +16,7 @@ export default function Craft() {
           </Reveal>
 
           <Reveal delay={140}>
-            <div className="bg-cream px-7 py-10 sm:px-12 sm:py-14 lg:-ml-16 lg:px-14 lg:py-16">
+            <div className="lg:-ml-16 lg:bg-cream lg:px-14 lg:py-16">
               <p className="text-[10px] uppercase tracking-[0.18em] text-terracotta">
                 Destaque artesanal
               </p>
